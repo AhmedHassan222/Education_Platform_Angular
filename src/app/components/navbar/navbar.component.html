@@ -1,0 +1,15 @@
+@switch(role()){
+@case ("User") {
+<app-user-navbar />
+}
+@case ("Admin") {
+<app-admin-navbar />
+}
+@case ("Teacher") {
+<app-teacher-navbar />
+}
+@default {
+<app-guest-navbar />
+}
+
+}
